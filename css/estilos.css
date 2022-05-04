@@ -1,0 +1,242 @@
+  
+  #div2{
+    height:100%;
+    width: 100%;
+    background-image: url(/img/background-fondo.jpg);
+  }
+
+.contenedor-formulario{
+    background-color: rgb(177, 177, 177);
+    position:relative;
+    height:100px;
+    width:70%;
+    margin:30px auto;
+    border-radius: 10px;
+}
+
+.formulario {
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+   
+    width:100%;
+    height:100%;
+  
+}
+
+.formulario input {
+    margin: 30px 10px;
+    font-size:20px;    
+    color:rgb(254,254,254);
+    background-color: rgb(22, 22, 22);
+    
+    width:25%;
+    border: 0px;
+}
+
+.formulario button {
+    margin: 25px 5px;
+    font-size:20px;
+    width:15%;
+    background-color: rgba(47, 252, 2);
+    color: rgb(3, 65, 3);
+    border:0px;
+    text-align: center;            
+}
+
+.formulario button:hover{
+    opacity:70%;
+    background-color: rgba(47,252,2);
+}
+
+#principal{    
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#secundaria{    
+    background-image: url(/img/background-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.visibilidad{
+    display:none;
+}
+
+.tazas-contenedor {
+    width:100%;
+    height: 200px;
+    line-height: 200px;
+    margin: 0px auto;
+    text-align: center;    
+}
+
+.tazas-contenedor img {
+    vertical-align: middle;
+}
+.taza-img {
+border-radius: 5px;
+}
+
+.tazas-slider {
+    display:none;
+}
+
+/* On screens that are 1024px or less, set the background color to blue Tablet vertical y horizontal*/
+@media screen and (max-width: 1024px) {
+
+    #principal {
+        background-image: url(/img/background-fondo.jpg);        
+        background-size: cover; 
+        background-repeat: repeat;
+    }
+
+    #secundaria{    
+        background-image: url(/img/background-fondo.jpg);
+        background-repeat: repeat;
+        background-size: cover; 
+    }
+
+    #principal .visibilidad{
+        display:contents;
+        position:absolute;
+    }
+
+    #principal .imagen-mobile {
+        width:100%;
+    }
+
+    .contenedor-formulario{
+        background-color: rgb(177, 177, 177);        
+        width:90%;
+        height:80px;
+        border-radius: 10px;
+    }
+
+    .formulario input {
+      
+        font-size:1rem; 
+        width: 25%;           
+        background-color: rgb(22, 22, 22);        
+        color:rgb(254,254,254);
+        border:0px;
+        margin: 1.5em 0.1em;
+
+    }
+
+    .formulario button {
+        
+        font-size:1rem;
+        width:20%;
+        background-color: rgba(47, 252, 2);
+        color: rgb(3, 65, 3);
+        border:0px;
+        text-align: center; 
+        margin: 1.5em 0.2em;          
+    }
+
+  }
+  
+  /* On screens that are 600px or less,  Mobiles vertical y horizontal*/
+  @media screen and (max-width: 480px) {
+    #principal {
+        background-image: url(/img/background-fondo.jpg);        
+        background-size: cover; 
+        background-repeat: repeat;
+    }
+
+    #secundaria{    
+        background-image: url(/img/background-fondo.jpg);
+        background-repeat: repeat;
+        background-size: cover; 
+    }
+
+    .contenedor-formulario{
+    background-color: rgb(177, 177, 177);
+    position:relative;
+    height:300px;
+    width:90%;
+    margin:30px auto;
+    border-radius: 10px;
+    }
+
+    .formulario {
+    /* centrar vertical y horizontalmente */
+    position: absolute;   
+    width:100%;
+    height:100%;
+
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    }
+    .formulario input {
+        margin: 30px 10px;
+        font-size:15px;    
+        color:rgb(254,254,254);
+        background-color: rgb(22, 22, 22);        
+       
+        border: 0px;
+        width: 90%;
+        height: 30px;
+        margin: 0.5rem;
+    }
+
+    .formulario button {
+        margin: 25px 5px;
+        font-size:20px;
+        width:90%;
+        background-color: rgba(47, 252, 2);
+        color: rgb(3, 65, 3);
+        border:0px;
+        text-align: center; 
+        padding: 0.5em 1em;           
+    }
+
+    #principal .visibilidad{
+        display:contents;
+    }
+
+    #principal .imagen-mobile {
+        width:100%;
+    }
+
+    .navbar-text {
+        font-size:small;
+        text-align: center;
+    }
+
+    .tazas-contenedor{
+        display:none;
+    }
+
+    .tazas-slider {
+        display:block;
+    }
+  }
+
+.me {
+    display:flex;
+    margin:10px;
+}
+.me img {
+    width:70px;
+    height:70px;
+    margin-right: 10px;
+    position:static;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+
+
+
+
