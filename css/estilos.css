@@ -1,5 +1,33 @@
-  
-  #div2{
+.foto-header{
+    background:rgb(230, 232, 230);
+    border-radius: 10px;;
+    display: flex;
+    margin:20px 0 20px 0;
+}
+
+.foto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:10%;
+}
+.foto img{
+    width:80%;
+    border-radius:50%;
+    border:1px solid rgb(255, 255, 255);
+    
+    margin:5px;
+}
+.foto-texto{
+    width:90%;
+}
+.foto-texto p{
+    margin:5px;
+    font-size: 1.2rem;
+}
+
+
+#div2{
     height:100%;
     width: 100%;
     background-image: url(/img/background-fondo.jpg);
@@ -85,7 +113,9 @@ border-radius: 5px;
 
 /* On screens that are 1024px or less, set the background color to blue Tablet vertical y horizontal*/
 @media screen and (max-width: 1024px) {
-
+    .foto-header{
+        background:rgb(253, 203, 2);
+    }
     #principal {
         background-image: url(/img/background-fondo.jpg);        
         background-size: cover; 
@@ -140,6 +170,15 @@ border-radius: 5px;
   
   /* On screens that are 600px or less,  Mobiles vertical y horizontal*/
   @media screen and (max-width: 480px) {
+    .foto-header{
+        background:rgb(223, 146, 199);
+    }
+    .foto{
+        display:none !important;
+    }
+    .foto-texto{
+        text-align: center;
+    }
     #principal {
         background-image: url(/img/background-fondo.jpg);        
         background-size: cover; 
@@ -235,8 +274,3 @@ border-radius: 5px;
 .subtitle {
     font-weight: 600;
 }
-
-
-
-
-

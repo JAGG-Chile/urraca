@@ -66,13 +66,16 @@
                         <a class="nav-link active" aria-current="page" href="<?php echo URL; ?>/index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="<?php echo URL; ?>/about.php">¿ Qué es Urraca ? </a>
+                        <a class="nav-link" href="<?php echo URL; ?>/about.php">Quién Soy</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="<?php echo URL; ?>/services.php">¿ Qué hace ?</a>
+                        <a class="nav-link" href="<?php echo URL; ?>/services.php">Qué hago</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="<?php echo URL; ?>/projects.php">¿ Qué ha hecho ?</a>
+                        <a class="nav-link" href="<?php echo URL; ?>/projects.php">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL; ?>/CV.pdf" target="_blank">CV</a>
                         </li>
                         <!-- <li class="nav-item">
                         <a class="nav-link" href="<?php echo URL; ?>/personaliza.php">Proyectos</a>
