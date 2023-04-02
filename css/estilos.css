@@ -1,3 +1,22 @@
+
+#navbarNav li a{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+#navbarNav li a:hover, a:focus { 
+    color: rgb(39, 38, 38);
+    background-size: 100% 2px;
+}
+
+.img-programacion{  
+    margin:5px;
+}
+
 .foto-header{
     background:rgb(230, 232, 230);
     border-radius: 10px;;
@@ -34,40 +53,59 @@
   }
 
 .contenedor-formulario{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(27, 25, 48);
+    opacity: 80%;
     position:relative;
-    height:100px;
-    width:70%;
+    height:500px;
+    width:50%;
     margin:30px auto;
     border-radius: 10px;
 }
 
 .formulario {
     /* centrar vertical y horizontalmente */
-    position: absolute;
-   
+    position: absolute;   
     width:100%;
-    height:100%;
-  
+    height:100%;     
 }
 
 .formulario input {
-    margin: 30px 10px;
-    font-size:20px;    
+    margin: 0 auto; 
+    font-size:14px;    
     color:rgb(254,254,254);
     background-color: rgb(22, 22, 22);
+    padding:5px; 
+    width:90%;
+    /* border: 0px; */
     
-    width:25%;
-    border: 0px;
+}
+.formulario textarea {
+    margin: 0 auto; 
+    font-size:14px;    
+    color:rgb(254,254,254);
+    background-color: rgb(22, 22, 22);
+    padding:5px; 
+    width:90%;
+    /* border: 0px; */
+    resize:none;
+}
+
+.formulario label {
+    color:aliceblue;
+    margin-left: 5%;
+    margin-top:30px;
+    margin-bottom:10px;
 }
 
 .formulario button {
-    margin: 25px 5px;
-    font-size:20px;
-    width:15%;
-    background-color: rgba(47, 252, 2);
-    color: rgb(3, 65, 3);
-    border:0px;
+    margin: 0 auto;
+    margin-top:20px;
+    font-size:14px;
+    font-weight: bold;
+    width:90%;
+    background-color: rgb(48, 248, 3);
+    color: rgb(0, 22, 9);
+    padding:5px;
     text-align: center;            
 }
 
@@ -77,13 +115,13 @@
 }
 
 #principal{    
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/fondo-new.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 #secundaria{    
-    background-image: url(/img/background-fondo.jpg);
+    background-image: url(/img/fondo-new.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -123,7 +161,7 @@ border-radius: 5px;
     }
 
     #secundaria{    
-        background-image: url(/img/background-fondo.jpg);
+        /*background-image: url(/img/background-fondo.jpg);*/
         background-repeat: repeat;
         background-size: cover; 
     }
@@ -139,8 +177,8 @@ border-radius: 5px;
 
     .contenedor-formulario{
         background-color: rgb(177, 177, 177);        
-        width:90%;
-        height:80px;
+        width:50%;
+        height:500px;
         border-radius: 10px;
     }
 
@@ -180,13 +218,13 @@ border-radius: 5px;
         text-align: center;
     }
     #principal {
-        background-image: url(/img/background-fondo.jpg);        
+        /*background-image: url(/img/background-fondo.jpg);*/        
         background-size: cover; 
         background-repeat: repeat;
     }
 
     #secundaria{    
-        background-image: url(/img/background-fondo.jpg);
+        /*background-image: url(/img/background-fondo.jpg);*/
         background-repeat: repeat;
         background-size: cover; 
     }

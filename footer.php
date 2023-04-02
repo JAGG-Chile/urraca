@@ -2,7 +2,7 @@
    <img src="<?php echo URL;?>/img/background.jpg" alt="" class="imagen-mobile">
 </div>
 
-<!-- Formulario de Contacto -->
+<!-- Formulario de Contacto 
 <div class="contenedor-formulario">
    
    <form class="formulario" id="formContacto" action="<?php echo URL;?>/enviar-mail.php" method="POST">
@@ -18,7 +18,7 @@
    </form>
 
 </div>
-
+-->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="<?php echo URL; ?>/js/bootstrap.bundle.min.js"></script>

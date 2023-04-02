@@ -1,17 +1,20 @@
 
 
 function validarDatosForm() {
-    console.log("entre");
-    nombre = document.getElementById('name').value;
+    //console.log("entre");
+    nombre = document.getElementById('nombre').value;
     correo = document.getElementById('email').value;
-    fono = document.getElementById('phone').value;
-    if( (nombre=="") || ( correo=="" && fono =="" )){
+    telefono = document.getElementById('telefono').value;
+    mensaje = document.getElementById('mensaje').value;
 
-       alert('Faltan Datos: debe ingresar nombre y al menos un teléfono o dirección de correo.','danger');
-       
+    if( (nombre=="") || ( email=="" && telefono =="" || mensaje=="" )){
+
+       Mialert('Faltan Datos: debe completar el formulario.','danger');     
     
     }else{
+
         document.getElementById("formContacto").submit();
+
     }    
     
 };
@@ -19,7 +22,7 @@ function validarDatosForm() {
 /*-- Mensaje de alertas --*/
 var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 
-function alert(message, type) {
+function Mialert(message, type) {
   var wrapper = document.createElement('div')
   wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
 

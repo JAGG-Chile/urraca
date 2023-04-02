@@ -1,18 +1,19 @@
 <?php
 
-$name = $_POST['name'];
+$name = $_POST['nombre'];
 $email = $_POST['email'];
-$phone = $_POST['phone'];
+$phone = $_POST['telefono'];
+$message = $_POST['mensaje'];
 
-if( !empty($name) and ( !empty($email) or !empty($phone) ) ){
+
     //enviar correo
-    $to         = "ventas@urraca.cl";
-    $subject    = "Tienes un mensaje de un contacto desde sitio web URRACA.CL";
+    $to         = "contacto@juan-garcia.cl";
+    $subject    = "Tienes un mensaje de un contacto desde sitio web.";
     $message    ="Datos de contacto desde sitio web.<br>
-              Nombre: ".$name."<br>Email: ".$email."<br>Teléfono: ".$phone;
+              Nombre: ".$name."<br>Email: ".$email."<br>Teléfono: ".$phone."<br>Mensaje: ".$message;
     $headers    ="MIME-Version: 1.0\r\n";
     $headers    .="Content-type: text/html; charset=utf-8\r\n";  //iso-8859-1
-    $headers    .="From: Urraca.cl <contacto@urraca.cl>\r\n";
+    $headers    .="From: Sitio Web juan-garcia.cl <contacto@juan-garcia.cl>\r\n";
     
     $enviado    = mail($to,$subject,$message,$headers);
 
@@ -21,5 +22,5 @@ if( !empty($name) and ( !empty($email) or !empty($phone) ) ){
     }else{
         header('location:correo-fallido.php');
     }
-}
+
 ?>
