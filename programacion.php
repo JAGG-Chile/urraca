@@ -6,12 +6,13 @@ include('header.php');
             <div class="card">
                 <h5 class="card-header">SERVICIOS</h5>
                 <div class="card-body">                                                          
-                    <p class="card-text subtitle">Soy un profesional establecido, formalizado ante el SII y emito factura. Mis servicios consisten en:</p>
+                    <p class="card-text subtitle">Desarrollo de software para la mediana y pequeña empresa.</p>
                     <ul>
-                        <li>Aplicaciones Web</li>
-                        <li>App para Móviles</li>
-                        <li>Sitios Wordpress</li>
-                        <li>SaaS</li>
+                        <li>Desarrollos a la medida</li>                            
+                        <li>Software como Servicio</li>
+                            <ul>
+                                <li><a href="#">Sistema de Ventas e Inventario</a></li>                                
+                            </ul>
                         <li>Soporte</li>
                     </ul>                    
                     <p>Todos los desarrollos consideran hosting, dominio y contrato de soporte.</p>
@@ -24,8 +25,7 @@ include('header.php');
                         <img src="img/logo-bootstrap.png" class="img-programacion" alt="logo-bootstrap" height="50px">
                         <img src="img/logo-javascript.png" class="img-programacion" alt="logo-javascript" height="50px">
                         <img src="img/logo-jquery.png" class="img-programacion" alt="logo-jquery" height="50px">
-                        <img src="img/logo-vuejs.png" class="img-programacion" alt="logo-vuejs" height="50px">
-                        <img src="img/logo-wordpress.png" class="img-programacion" alt="logo-wordpress" height="50px">
+                        <img src="img/logo-vuejs.png" class="img-programacion" alt="logo-vuejs" height="50px">                        
                     </div>
                 </div>
             </div>

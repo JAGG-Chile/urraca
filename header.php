@@ -26,7 +26,7 @@ if ($pagina == 'index.php') {
   <!-- mis estilos -->
   <link href="<?php echo URL; ?>/css/estilos.css" rel="stylesheet">
 
-  <title>Juan García | Desarrollador</title>
+  <title>Coderland</title>
 
   <!-- Creado con Favicon-generator-org-->
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo URL; ?>/img/favicon/apple-icon-57x57.png">
@@ -58,7 +58,7 @@ if ($pagina == 'index.php') {
       <div class="container-fluid">
         <!--Logo -->
         <a class="navbar-brand" href="<?php echo URL; ?>/index.php">
-          <img src="<?php echo URL; ?>/img/logo-avatar.png" class="d-inline-block align-text-top" height="40px" alt="logo juan garcia">
+          <img src="<?php echo URL; ?>/img/logo-avatar.png" class="d-inline-block align-text-top" height="40px" alt="Logo Coderland">
         </a>
         <!-- Menu -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,11 +66,11 @@ if ($pagina == 'index.php') {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="<?php echo URL; ?>/index.php">Inicio</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo URL; ?>/about.php">Quién Soy</a>
+              <a class="nav-link" href="<?php echo URL; ?>/about.php">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo URL; ?>/programacion.php">Servicios</a>
@@ -83,9 +83,8 @@ if ($pagina == 'index.php') {
             </li>            
           </ul>
         </div>
-        <span class="navbar-text">
-          <img class="navbar-text" src="<?php echo URL; ?>/img/email_black_24dp.svg">&nbsp;contacto@juan-garcia.cl</img>
-          <img class="navbar-text" src="<?php echo URL; ?>/img/phone_black_24dp.svg">&nbsp;(56) 9 9844 8928</img>
+        <span class="navbar-text">          
+          <img class="navbar-text" src="<?php echo URL; ?>/img/phone_black_24dp.svg">&nbsp;(569) 2620 2614</img>
         </span>
       </div>
     </nav>

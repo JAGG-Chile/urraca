@@ -19,7 +19,7 @@
 
 .foto-header{
     background:rgb(230, 232, 230);
-    border-radius: 10px;;
+    
     display: flex;
     margin:20px 0 20px 0;
 }
@@ -28,21 +28,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width:10%;
+    width:30%;
 }
-.foto img{
-    width:80%;
-    border-radius:50%;
-    border:1px solid rgb(255, 255, 255);
-    
-    margin:5px;
+.foto img{    
+    margin-left:5px !important;
 }
 .foto-texto{
-    width:90%;
+    width:70%;
 }
 .foto-texto p{
-    margin:5px;
-    font-size: 1.2rem;
+    width: 100%;
+    padding:10px;
+    font-size: 1.1rem;
+    text-align: center;    
+    margin-bottom: 0px !important;
 }
 
 
