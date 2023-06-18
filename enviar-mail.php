@@ -9,8 +9,12 @@ $message = $_POST['mensaje'];
     //enviar correo
     $to         = "informatico.juangarcia@gmail.com";
     $subject    = "Tienes un mensaje desde sitio web CODERLAND.";
-    $message    ="Datos de contacto desde sitio web.<br>
-              Nombre: ".$name."<br>Email: ".$email."<br>Teléfono: ".$phone."<br>Mensaje: ".$message;
+    $message    ="Te han enviado un  mensaaje a través del formulario de contacto desde el sitio web.<br>
+                  Los datos del remitente son:<br>
+                  Nombre: ".$name."<br>
+                  Email: ".$email."<br>
+                  Teléfono: ".$phone."<br>
+                  Mensaje: ".$message;
     $headers    ="MIME-Version: 1.0\r\n";
     $headers    .="Content-type: text/html; charset=utf-8\r\n";  //iso-8859-1
     $headers    .="From: Sitio www.coderland.cl <contacto@coderland.cl>\r\n";
